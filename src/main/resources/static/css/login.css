@@ -1,0 +1,120 @@
+/* General Styles */
+body {
+  text-align: center;
+  padding: 40px 0;
+  background: #EBF0F5;
+}
+
+h1 {
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #404F5E;
+  font-family: "Nunito Sans", "Helvetica Neue", sans-serif;
+  font-size:20px;
+  margin: 0;
+}
+
+/* Header */
+header {
+  text-align: center;
+}
+
+#error {
+  text-align: center;
+}
+
+/* Style the login form */
+form {
+  width: 50%;
+  margin: auto;
+  border: 3px solid #f1f1f1;
+}
+
+/* Add padding and margin to the form */
+.container {
+  padding: 16px;
+}
+
+/* Style the input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Style the login button */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Style the register user button */
+.registerbtn {
+  background-color: rgb(0, 0, 255);
+}
+
+/* Float the login button to the right */
+.loginbtn {
+  float: right;
+}
+
+/* Logout button style */
+#logout {
+  background-color: red;
+  margin-top: 20px;
+  width: 40%;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Styles for Login Success Page */
+.checkmarkContainer {
+  border-radius:200px; 
+  height:200px; 
+  width:200px; 
+  background: #F8FAF5; 
+  margin:0 auto;
+}
+
+.checkmark {
+  color: #9ABC66;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left:-15px;
+}
+
+.checkmark-error {
+  color: red;
+  font-size: 100px;
+  line-height: 200px;
+  margin-left:-15px;
+}
+
+.card {
+  background: white;
+  padding: 60px;
+  border-radius: 4px;
+  box-shadow: 0 2px 3px #C8D0D8;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+
